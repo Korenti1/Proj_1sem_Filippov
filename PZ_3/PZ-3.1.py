@@ -13,4 +13,4 @@ try:
        x = ((d2 < d1) and (d1 < d0)) or ((d2 > d1) and (d1 > d0))
        print("Цифры образуют возрастающую или \nубывающую последовательность: ", x)
 except ValueError:
-   print('Ok')
+   print('Error')
