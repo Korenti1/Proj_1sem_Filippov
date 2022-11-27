@@ -4,4 +4,5 @@ s1='abra'
 s2='lmao'
 a = strr.replace(s1, s2)
 
+
 print(a)
