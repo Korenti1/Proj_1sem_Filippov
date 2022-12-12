@@ -8,6 +8,7 @@ a = list()
 b = list()
 for i in range(random.randint(1, 20)):
     a.append(random.randint(1, 100))
+print(a)
 
 try:
     for i in a:
