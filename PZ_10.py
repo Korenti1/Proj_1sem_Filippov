@@ -9,5 +9,4 @@ thrd_sad = {'Кукла', 'Конструктор',}
 
 print(toys - fir_sad - sec_sad - thrd_sad)
 
-print(*(toys & fir_sad & sec_sad & thrd_sad),
-      'есть в каждом детском саду' if toys & fir_sad & sec_sad & thrd_sad != set() else 'Общих игрушек из списка нет ни в одном детском саду')
+print(*(toys & fir_sad & sec_sad & thrd_sad),'есть в каждом детском саду' if toys & fir_sad & sec_sad & thrd_sad != set() else 'Общих игрушек из списка нет ни в одном детском саду')
