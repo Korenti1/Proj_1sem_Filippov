@@ -4,7 +4,7 @@
 файле."""
 import re
 
-with open('/content/ip_address.txt', 'r', encoding='utf-8') as file:
+with open('ip_address.txt', 'r', encoding='utf-8') as file:
   data = file.read()[535:]
 
 anyone_address = re.findall("\d+\.\d+\.\d+\.\d+.\d+", data)
